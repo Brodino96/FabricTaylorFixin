@@ -3,9 +3,25 @@
   "id": "fabrictaylorfixin",
   "version": "${version}",
   "name": "FabricTaylorFixin",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "A compatibility fix between Fabric Tailor and YDM's Weapon Master",
+  "authors": [
+    {
+      "name": "Brodino",
+      "contact": {
+        "homepage": "https://vincentacanfora.com/"
+      }
+    },
+    {
+      "name": "DreamingCodes",
+      "contact": {
+        "homepage": "https://dreaming.codes"
+      }
+    }
+  ],
+  "contact": {
+    "sources": "https://github.com/Brodino96/FabricTaylorFixin",
+    "issues": "https://github.com/Brodino96/FabricTaylorFixin/issues"
+  },
   "license": "MIT",
   "icon": "assets/fabrictaylorfixin/icon.png",
   "environment": "*",
@@ -23,6 +39,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "weaponmaster": "*"
   }
 }
