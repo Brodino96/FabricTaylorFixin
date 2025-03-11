@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fabrictaylorfixin",
+  "version": "${version}",
+  "name": "FabricTaylorFixin",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fabrictaylorfixin/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.brodino.fabrictaylorfixin.client.FabricTaylorFixinClient"
+    ],
+    "main": [
+      "net.brodino.fabrictaylorfixin.FabricTaylorFixin"
+    ]
+  },
+  "mixins": [
+    "fabrictaylorfixin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
