@@ -1,12 +1,9 @@
-package net.brodino.fabrictaylorfixin.mixin;
+package net.brodino.weaponmasterfixin.mixin;
 
 import com.minecraftserverzone.weaponmaster.setup.PlayerEntityExtension;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
 

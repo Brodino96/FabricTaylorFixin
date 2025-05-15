@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "fabrictaylorfixin",
+  "id": "weaponmasterfixin",
   "version": "${version}",
-  "name": "FabricTaylorFixin",
+  "name": "WeaponMasterFixin",
   "description": "A compatibility fix between Fabric Tailor and YDM's Weapon Master",
   "authors": [
     {
@@ -19,22 +19,22 @@
     }
   ],
   "contact": {
-    "sources": "https://github.com/Brodino96/FabricTaylorFixin",
-    "issues": "https://github.com/Brodino96/FabricTaylorFixin/issues"
+    "sources": "https://github.com/Brodino96/WeaponMasterFixin",
+    "issues": "https://github.com/Brodino96/WeaponMasterFixin/issues"
   },
   "license": "MIT",
-  "icon": "assets/fabrictaylorfixin/icon.png",
+  "icon": "assets/weaponmasterfixin/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.brodino.fabrictaylorfixin.client.FabricTaylorFixinClient"
+      "net.brodino.weaponmasterfixin.client.WeaponMasterFixinClient"
     ],
     "main": [
-      "net.brodino.fabrictaylorfixin.FabricTaylorFixin"
+      "net.brodino.weaponmasterfixin.WeaponMasterFixin"
     ]
   },
   "mixins": [
-    "fabrictaylorfixin.mixins.json"
+    "weaponmasterfixin.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
